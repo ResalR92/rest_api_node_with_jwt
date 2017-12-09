@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 mongoose.Promise = global.Promise;
 
 mongoose
-  .connect("mongodb://localhost:27017/TodoApp", {
+  .connect("mongodb://resal:resal@ds135156.mlab.com:35156/rest-api-nodejss", {
     useMongoClient: true
   })
   .then(() => console.log("MongoDB Connected"))
